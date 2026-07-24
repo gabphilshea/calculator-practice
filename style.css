@@ -14,6 +14,8 @@ html {
 body {
     align-items: center;
     background: linear-gradient(to right, #ee0979, #ff6a00);
+    background-image: url(background.jpg);
+    background-size: cover;
     display: flex;
     font-family: 'Spline Sans Mono', sans-serif;
     font-display: swap;
@@ -22,6 +24,7 @@ body {
 }
 
 .wrapper{
+    margin-top: 40px;
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
     background: rgba(255, 255, 255, 0.75);
@@ -36,6 +39,14 @@ body {
     flex-basis: 400px;
     height: 540px;
     padding: 20px 35px;
+}
+
+.title {
+    position: absolute;
+    text-align: center;
+    top: 25px;;
+    bottom: 1;
+    
 }
 
 .screen{
@@ -94,12 +105,11 @@ body {
 }
 
 .calc-button:active{
-    background-color: #ffef78;
+    background-color: #f76248;
 }
 
 .double{
     flex-basis: 47%;
-
 }
 
 .triple{
