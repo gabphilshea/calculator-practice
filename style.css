@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background: linear-gradient(to right, #ee0979, #ff6a00);
+    display: flex;
+    font-family: 'Spline Sans Mono', sans-serif;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+
+}
